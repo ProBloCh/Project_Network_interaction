@@ -256,7 +256,7 @@ h4{
 
             .dashboard-card2 button {
                 /* width: 23%;  */
-                /* height: 30px;  */
+                height: 39px !important; 
                 background: linear-gradient(45deg, #5ac8fa, #287dc8); /* Gradient background */
                 color: #ffffff; /* Font color */
                 border: none; /* Removing the default border */
@@ -8516,9 +8516,9 @@ h4{
     margin-left: 30px;
     margin-right: 30px;">
         <h1>Interactive Project Task Map</h1>
-        <button onclick="openModal('modal0')">More Information about Project Network Visualization</button>
+        <button onclick="openModal('modal0')" class="cus-more-button">More Information about Project Network Visualization</button>
         <div class="control-panel">
-            <div class="dashboard-stat" style="width: 422px !important;">
+            <div class="dashboard-stat">
                 <label class="control-label">Zoom:</label>
                 <button onclick="zoomIn()">+</button>
                 <button onclick="zoomOut()">-</button>
@@ -8732,7 +8732,7 @@ h4{
                             </div>
                             <canvas height="280" id="riskMatrix" width="300"></canvas>
                             </br>
-                            <button class="learn-more-btn" onclick="openModal('riskMatrixModal')" style="margin-top: 11px !important;">Learn More</button>
+                            <button class="learn-more-btn" onclick="openModal('riskMatrixModal')" style="margin-top: 16px !important;">Learn More</button>
                         </div>
                         <div class="dashboard-card2" id="RadialRisk" style="margin-right: 0px !important;">
                             <h2>Radial Risk Chart</h2>
