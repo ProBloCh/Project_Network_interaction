@@ -1,4 +1,4 @@
-﻿/*
+/*
 
 Project Dashboard - v1.0.0
 A custom dashboard for managing projects
@@ -107,7 +107,7 @@ a {
 }
 
 .text-white-op {
-    color: rgba(255, 255, 255, .75);
+    /* color: rgba(255, 255, 255, .75); */
 }
 
 .text-success {
@@ -653,4 +653,8 @@ button::-moz-focus-inner, a.button::-moz-focus-inner {
         background: url("https://cybereum.io/wp-content/uploads/2022/12/But2-2.png") no-repeat;
         background-size: 100%; /* To fill the dimensions of container (button), or */
         color: darkred
+    }
+
+    .cus-more-button{
+        padding: 17px !important;
     }
